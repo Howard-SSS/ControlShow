@@ -17,10 +17,10 @@ class ViewController: UIViewController {
         view.addSubview(picketView)
         self.picketView = picketView
         
-        let btn = UIButton(frame: .init(x: picketView.minX, y: picketView.maxY + 10, width: 100, height: 50))
-        btn.backgroundColor = .yellow
-        btn.addTarget(self, action: #selector(touchBtn), for: .touchUpInside)
-        view.addSubview(btn)
+//        let btn = UIButton(frame: .init(x: picketView.minX, y: picketView.maxY + 10, width: 100, height: 50))
+//        btn.backgroundColor = .yellow
+//        btn.addTarget(self, action: #selector(touchBtn), for: .touchUpInside)
+//        view.addSubview(btn)
     }
 
     @objc func touchBtn() {
