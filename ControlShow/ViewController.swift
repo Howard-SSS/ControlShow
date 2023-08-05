@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         view.addSubview(picketView)
         self.picketView = picketView
         
+        let pixelPickerView = PixelPickerView(frame: .init(x: (view.width - 355) * 0.5, y: picketView.maxY + 10, width: 355, height: 178), x: 14, y: 3)
+        view.addSubview(pixelPickerView)
 //        let btn = UIButton(frame: .init(x: picketView.minX, y: picketView.maxY + 10, width: 100, height: 50))
 //        btn.backgroundColor = .yellow
 //        btn.addTarget(self, action: #selector(touchBtn), for: .touchUpInside)
