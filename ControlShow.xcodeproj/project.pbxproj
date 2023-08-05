@@ -11,6 +11,7 @@
 		393FA12B2A7E4C5A00C39964 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 393FA12A2A7E4C5A00C39964 /* README.md */; };
 		393FA12E2A7E4E6E00C39964 /* PixelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393FA12D2A7E4E6E00C39964 /* PixelPickerView.swift */; };
 		393FA1302A7E686500C39964 /* PixelPickerView-show.gif in Resources */ = {isa = PBXBuildFile; fileRef = 393FA12F2A7E686500C39964 /* PixelPickerView-show.gif */; };
+		393FA1322A7E693400C39964 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 393FA1312A7E693400C39964 /* README.md */; };
 		395330A62A7D74F60066F56F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395330A52A7D74F60066F56F /* AppDelegate.swift */; };
 		395330A82A7D74F60066F56F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395330A72A7D74F60066F56F /* SceneDelegate.swift */; };
 		395330AA2A7D74F60066F56F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395330A92A7D74F60066F56F /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		393FA12A2A7E4C5A00C39964 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		393FA12D2A7E4E6E00C39964 /* PixelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelPickerView.swift; sourceTree = "<group>"; };
 		393FA12F2A7E686500C39964 /* PixelPickerView-show.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "PixelPickerView-show.gif"; sourceTree = "<group>"; };
+		393FA1312A7E693400C39964 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		395330A22A7D74F60066F56F /* ControlShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		395330A52A7D74F60066F56F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		395330A72A7D74F60066F56F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				393FA12D2A7E4E6E00C39964 /* PixelPickerView.swift */,
+				393FA1312A7E693400C39964 /* README.md */,
 			);
 			path = PixelPickerView;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				395330B22A7D74F60066F56F /* LaunchScreen.storyboard in Resources */,
 				395330AF2A7D74F60066F56F /* Assets.xcassets in Resources */,
 				393FA12B2A7E4C5A00C39964 /* README.md in Resources */,
+				393FA1322A7E693400C39964 /* README.md in Resources */,
 				393FA1302A7E686500C39964 /* PixelPickerView-show.gif in Resources */,
 				395330AD2A7D74F60066F56F /* Main.storyboard in Resources */,
 				393FA1272A7E4BA900C39964 /* HorizontalPicker-show.gif in Resources */,
