@@ -64,8 +64,11 @@ class PixelPickerView: UIScrollView {
     func configUI() {
         layer.cornerRadius = 4
         backgroundColor = .init(hexValue: 0x171717)
+        minimumZoomScale = 1
+        let shortSide = min(width, height)
+        maximumZoomScale = (shortSide - 2 * space) / (itemWidth * 1.5)
         delegate = self
-        contentSize = contentView.bounds.size
+        contentSize = contentView.frame.size
         showsVerticalScrollIndicator = false
         showsHorizontalScrollIndicator = false
         addSubview(contentView)
@@ -100,8 +103,8 @@ class PixelPickerView: UIScrollView {
         
         let width: CGFloat = CGFloat(colSelectArr[colSelectArr.count - 1]) * itemWidth * 1.5 + CGFloat(x - colSelectArr[colSelectArr.count - 1]) * itemWidth + CGFloat(x + 1) * space
         let height: CGFloat = CGFloat(rowSelectArr[rowSelectArr.count - 1]) * itemWidth * 1.5 + CGFloat(y - rowSelectArr[rowSelectArr.count - 1]) * itemWidth + CGFloat(y + 1) * space
-        contentView.frame.size = .init(width: width, height: height)
-        contentSize = contentView.bounds.size
+        contentView.frame = .init(x: 0, y: 0, width: width * zoomScale, height: height * zoomScale)
+        contentSize = contentView.frame.size
         
         var minX = space, minY = space
         for tempY in 0..<y {
@@ -169,6 +172,12 @@ class PixelPickerView: UIScrollView {
 extension PixelPickerView: UIScrollViewDelegate {
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        
+    }
+    
+    func scrollViewDidZoom(_ scrollView: UIScrollView) {
+    }
+    
+    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+        contentView
     }
 }
