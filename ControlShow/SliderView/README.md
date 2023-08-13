@@ -1,0 +1,1 @@
+![爽滑条资源](https://github.com/Howard-SSS/ControlShow/blob/main/ControlShow/Resource/DoubleThumbSliderView-show.gif?raw=true)
