@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390F72A52A88E69F00D1E6B2 /* SliderView-show.gif in Resources */ = {isa = PBXBuildFile; fileRef = 390F72A42A88E69F00D1E6B2 /* SliderView-show.gif */; };
 		3927BE192A88CDD00012FD54 /* DoubleThumbSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3927BE182A88CDD00012FD54 /* DoubleThumbSliderView.swift */; };
 		3927BE1B2A88E33A0012FD54 /* DoubleThumbSliderView-show.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3927BE1A2A88E33A0012FD54 /* DoubleThumbSliderView-show.gif */; };
 		39323C012A888B4F00DC6ACD /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39323C002A888B4F00DC6ACD /* SliderView.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		390F72A42A88E69F00D1E6B2 /* SliderView-show.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "SliderView-show.gif"; sourceTree = "<group>"; };
 		3927BE182A88CDD00012FD54 /* DoubleThumbSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleThumbSliderView.swift; sourceTree = "<group>"; };
 		3927BE1A2A88E33A0012FD54 /* DoubleThumbSliderView-show.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "DoubleThumbSliderView-show.gif"; sourceTree = "<group>"; };
 		39323C002A888B4F00DC6ACD /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		393FA1252A7E4B8D00C39964 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				390F72A42A88E69F00D1E6B2 /* SliderView-show.gif */,
 				3927BE1A2A88E33A0012FD54 /* DoubleThumbSliderView-show.gif */,
 				393FA1262A7E4BA900C39964 /* HorizontalPicker-show.gif */,
 				393FA12F2A7E686500C39964 /* PixelPickerView-show.gif */,
@@ -195,6 +198,7 @@
 				395330B22A7D74F60066F56F /* LaunchScreen.storyboard in Resources */,
 				395330AF2A7D74F60066F56F /* Assets.xcassets in Resources */,
 				393FA1302A7E686500C39964 /* PixelPickerView-show.gif in Resources */,
+				390F72A52A88E69F00D1E6B2 /* SliderView-show.gif in Resources */,
 				3927BE1B2A88E33A0012FD54 /* DoubleThumbSliderView-show.gif in Resources */,
 				395330AD2A7D74F60066F56F /* Main.storyboard in Resources */,
 				393FA1272A7E4BA900C39964 /* HorizontalPicker-show.gif in Resources */,
