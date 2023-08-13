@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3927BE192A88CDD00012FD54 /* DoubleThumbSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3927BE182A88CDD00012FD54 /* DoubleThumbSliderView.swift */; };
+		3927BE1B2A88E33A0012FD54 /* DoubleThumbSliderView-show.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3927BE1A2A88E33A0012FD54 /* DoubleThumbSliderView-show.gif */; };
+		39323C012A888B4F00DC6ACD /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39323C002A888B4F00DC6ACD /* SliderView.swift */; };
+		3935DD892A829F2F00619227 /* WCFunctionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3935DD882A829F2F00619227 /* WCFunctionListView.swift */; };
 		393FA1272A7E4BA900C39964 /* HorizontalPicker-show.gif in Resources */ = {isa = PBXBuildFile; fileRef = 393FA1262A7E4BA900C39964 /* HorizontalPicker-show.gif */; };
 		393FA12E2A7E4E6E00C39964 /* PixelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393FA12D2A7E4E6E00C39964 /* PixelPickerView.swift */; };
 		393FA1302A7E686500C39964 /* PixelPickerView-show.gif in Resources */ = {isa = PBXBuildFile; fileRef = 393FA12F2A7E686500C39964 /* PixelPickerView-show.gif */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3927BE182A88CDD00012FD54 /* DoubleThumbSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleThumbSliderView.swift; sourceTree = "<group>"; };
+		3927BE1A2A88E33A0012FD54 /* DoubleThumbSliderView-show.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "DoubleThumbSliderView-show.gif"; sourceTree = "<group>"; };
+		39323C002A888B4F00DC6ACD /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		3935DD882A829F2F00619227 /* WCFunctionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCFunctionListView.swift; sourceTree = "<group>"; };
 		393FA1262A7E4BA900C39964 /* HorizontalPicker-show.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "HorizontalPicker-show.gif"; sourceTree = "<group>"; };
 		393FA12D2A7E4E6E00C39964 /* PixelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelPickerView.swift; sourceTree = "<group>"; };
 		393FA12F2A7E686500C39964 /* PixelPickerView-show.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "PixelPickerView-show.gif"; sourceTree = "<group>"; };
@@ -47,6 +55,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39323BFF2A888A3400DC6ACD /* SliderView */ = {
+			isa = PBXGroup;
+			children = (
+				39323C002A888B4F00DC6ACD /* SliderView.swift */,
+				3927BE182A88CDD00012FD54 /* DoubleThumbSliderView.swift */,
+			);
+			path = SliderView;
+			sourceTree = "<group>";
+		};
+		3935DD872A829ECB00619227 /* WCFunctionListView */ = {
+			isa = PBXGroup;
+			children = (
+				3935DD882A829F2F00619227 /* WCFunctionListView.swift */,
+			);
+			path = WCFunctionListView;
+			sourceTree = "<group>";
+		};
 		393FA1242A7E480E00C39964 /* HorizontalPickerView */ = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +83,7 @@
 		393FA1252A7E4B8D00C39964 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3927BE1A2A88E33A0012FD54 /* DoubleThumbSliderView-show.gif */,
 				393FA1262A7E4BA900C39964 /* HorizontalPicker-show.gif */,
 				393FA12F2A7E686500C39964 /* PixelPickerView-show.gif */,
 			);
@@ -91,6 +117,8 @@
 		395330A42A7D74F60066F56F /* ControlShow */ = {
 			isa = PBXGroup;
 			children = (
+				39323BFF2A888A3400DC6ACD /* SliderView */,
+				3935DD872A829ECB00619227 /* WCFunctionListView */,
 				393FA12C2A7E4D3900C39964 /* PixelPickerView */,
 				393FA1252A7E4B8D00C39964 /* Resource */,
 				393FA1242A7E480E00C39964 /* HorizontalPickerView */,
@@ -167,6 +195,7 @@
 				395330B22A7D74F60066F56F /* LaunchScreen.storyboard in Resources */,
 				395330AF2A7D74F60066F56F /* Assets.xcassets in Resources */,
 				393FA1302A7E686500C39964 /* PixelPickerView-show.gif in Resources */,
+				3927BE1B2A88E33A0012FD54 /* DoubleThumbSliderView-show.gif in Resources */,
 				395330AD2A7D74F60066F56F /* Main.storyboard in Resources */,
 				393FA1272A7E4BA900C39964 /* HorizontalPicker-show.gif in Resources */,
 			);
@@ -180,8 +209,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3994C7402A7D78B500156E0B /* HorizontalPickerView.swift in Sources */,
+				39323C012A888B4F00DC6ACD /* SliderView.swift in Sources */,
+				3927BE192A88CDD00012FD54 /* DoubleThumbSliderView.swift in Sources */,
 				393FA12E2A7E4E6E00C39964 /* PixelPickerView.swift in Sources */,
 				395330AA2A7D74F60066F56F /* ViewController.swift in Sources */,
+				3935DD892A829F2F00619227 /* WCFunctionListView.swift in Sources */,
 				395330BC2A7D75590066F56F /* MoreExtension.swift in Sources */,
 				395330A62A7D74F60066F56F /* AppDelegate.swift in Sources */,
 				395330A82A7D74F60066F56F /* SceneDelegate.swift in Sources */,
